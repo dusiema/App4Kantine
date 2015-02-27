@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:id="@+id/weekdayGauge"
+	android:orientation="horizontal"
+	android:background="@color/white"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+    
+    <TextView 
+    	android:id="@+id/gauge0"
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"
+    	android:layout_weight="1"
+    	android:gravity="center_horizontal"    	
+    	android:text="Mo"
+    />
+
+    <TextView 
+    	android:id="@+id/gauge1"
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"    	
+    	android:layout_weight="1"    	
+    	android:gravity="center_horizontal"    	
+    	android:text="Di"
+    />
+    
+    <TextView 
+    	android:id="@+id/gauge2"
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"    	
+    	android:layout_weight="1"    	
+    	android:gravity="center_horizontal"    	
+    	android:text="Mi"
+    />
+    
+    <TextView 
+    	android:id="@+id/gauge3"
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"    	
+    	android:layout_weight="1"    	
+    	android:gravity="center_horizontal"    	
+    	android:text="Do"
+    />
+    
+    <TextView 
+    	android:id="@+id/gauge4"
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent"    	
+    	android:layout_weight="1"    	
+    	android:gravity="center_horizontal"    	
+    	android:text="Fr"
+    />
+    
+</LinearLayout>

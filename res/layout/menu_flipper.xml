@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/menuFlipper"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+    
+    <include android:id="@+id/monday" layout="@layout/weekday" />
+    <include android:id="@+id/tuesday" layout="@layout/weekday" />
+    <include android:id="@+id/wednesday" layout="@layout/weekday" />
+    <include android:id="@+id/thursday" layout="@layout/weekday" />
+    <include android:id="@+id/friday" layout="@layout/weekday" />
+    
+</ViewFlipper>

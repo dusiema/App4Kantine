@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:clickable="true"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<include layout="@layout/weekday_header" />	
+	<include layout="@layout/weekday_gauge" />
+	
+
+	<ScrollView 
+		android:id="@+id/scrollViewWeekDay"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+		
+		
+		<LinearLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+		
+			
+			<include 
+				android:id="@+id/gerichtSuppe"
+				layout="@layout/gericht" />
+				
+			<include 
+				android:id="@+id/gerichtMenu1"
+				layout="@layout/gericht" />
+				
+			<include 
+				android:id="@+id/gerichtMenu2"
+				layout="@layout/gericht" />
+				
+			<include 
+				android:id="@+id/gerichtMenu3"
+				layout="@layout/gericht" />
+				
+			<include 
+				android:id="@+id/gerichtSalat"
+				layout="@layout/gericht" />
+								
+			<include 
+				android:id="@+id/gerichtDesert"
+				layout="@layout/gericht" />
+				
+		</LinearLayout>	
+	</ScrollView>
+</LinearLayout>

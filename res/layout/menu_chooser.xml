@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:fillViewport="true"
+	>
+	
+	<LinearLayout 
+		android:id="@+id/menuChooser" 
+		
+		android:orientation="vertical" 
+		android:background="@color/white"
+		
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+	
+		<LinearLayout 
+			android:orientation="horizontal"
+			android:background="@color/white"
+			android:padding="2dp"
+			android:layout_marginBottom="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			
+			<ImageView
+				android:src="@drawable/kbv"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight="0.33"
+				/>
+
+			<ImageView
+				android:src="@drawable/aramark"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight="0.33"
+				/>			
+
+			<ImageView
+				android:src="@drawable/baek"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_weight="0.33"
+				/>			
+				
+			
+		</LinearLayout>
+		
+		<Button 
+		    android:id="@+id/downloadNewMenu"
+		    android:text="Lade neue Menu-Datei"
+		    android:layout_margin="10dp"
+		    android:layout_width="fill_parent"
+		    android:layout_height="50dp"
+		    android:textSize="16sp"
+		    android:textStyle="bold"
+		    android:gravity="center"
+	    	android:textColor="@color/black"
+	    	android:clickable="true"
+	    	android:onClick="downloadNewMenu"
+			/>
+
+		<Button 
+		    android:id="@+id/showMenuFile"
+		    android:layout_margin="10dp"
+		    android:text="Keine Menu-Datei vorhanden"
+		    android:layout_width="fill_parent"
+		    android:layout_height="50dp"
+		    android:textSize="16sp"
+		    android:textStyle="bold"
+		    android:gravity="center"
+	    	android:textColor="@color/white"
+	    	android:background="@drawable/menu_selector"
+	    	android:clickable="true"
+	    	android:onClick="startMenuFlipper"
+			/>
+	    
+	</LinearLayout>
+</ScrollView>

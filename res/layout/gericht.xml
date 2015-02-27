@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:background="@color/white">
+
+	<TextView 
+		android:id="@+id/gerichtNr"
+		android:layout_width="100dp"
+		android:gravity="center_horizontal"
+		android:textColor="@color/black" 
+		android:text="n.n."
+		android:layout_height="wrap_content" 
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true" 
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="16dp" 
+		android:textSize="18sp" >
+		</TextView>
+
+	<TextView 
+		android:id="@+id/gerichtPreis"
+		android:layout_width="wrap_content" 
+		android:gravity="center_horizontal"
+		android:layout_height="wrap_content" 
+		android:text="0 €" 
+		android:layout_below="@+id/gerichtNr" 
+		android:layout_alignRight="@+id/gerichtNr"
+		android:layout_alignLeft="@+id/gerichtNr" 
+		android:layout_marginTop="5dp"
+		android:paddingBottom="10dp">
+	</TextView>
+
+	<TextView 
+		android:id="@+id/gerichtText"
+		android:textSize="15sp"
+		android:textColor="@color/black" 
+		android:gravity="center"
+		android:text="Kein Menu vorhanden"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true" 
+		android:layout_toRightOf="@+id/gerichtNr"
+		android:layout_alignTop="@+id/gerichtNr"
+		android:layout_marginLeft="10dp" 
+		android:layout_marginRight="15dp">
+	</TextView>
+
+	<TextView 
+		android:id="@+id/gerichtKcal" 
+		android:gravity="center_horizontal"
+		android:layout_width="wrap_content" 
+		android:textSize="12sp"
+		android:paddingTop="5dp"
+		android:paddingBottom="10dp"
+		android:layout_height="wrap_content"
+		android:textColor="@color/grau"
+		android:text="" 
+		android:layout_below="@+id/gerichtText"
+		android:layout_alignRight="@+id/gerichtText" 
+		android:layout_alignLeft="@+id/gerichtText"
+		android:layout_marginTop="5dp">
+	</TextView>
+	
+	<View 
+		android:id="@+id/detailsSpacer"
+		android:layout_width="fill_parent" 
+		android:background="@color/grau50"
+		android:layout_height="3dp" 
+		android:layout_alignParentLeft="true" 
+		android:layout_alignParentBottom="true"
+		android:layout_margin="0dp">
+	</View>
+	
+</RelativeLayout>

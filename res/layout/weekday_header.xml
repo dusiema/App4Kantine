@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/magenta25"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"	
+	android:id="@+id/weekdayHeader">
+
+	<ImageButton
+		android:id="@+id/wochentagPrevious" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_marginTop="4dp"
+		android:src="@drawable/ic_action_left"
+		android:onClick="onClickPreviousDay"	
+		android:layout_alignBottom="@+id/wochentag" 
+		android:layout_alignParentLeft="true" 
+		android:layout_alignParentTop="true"/>
+			
+	<TextView 
+		android:id="@+id/wochentag"
+		android:textColor="@color/white"
+		android:textSize="20sp"
+		android:gravity="center"
+		android:layout_width="fill_parent"
+		android:layout_height="50dp"		
+		android:text="Datum" 
+		android:layout_toRightOf="@+id/wochentagPrevious" 
+		android:layout_toLeftOf="@+id/wochentagNext"/>
+		
+	<ImageButton
+		android:id="@+id/wochentagNext" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_marginTop="4dp"
+		android:src="@drawable/ic_action_right"
+		android:onClick="onClickNextDay"	
+		android:layout_alignBottom="@+id/wochentag" 
+		android:layout_alignParentRight="true" 
+		android:layout_alignParentTop="true"/>
+			
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="magenta">#b90065</color>
+    <color name="magenta50">#dc80b2</color>
+    <color name="magenta25">#edbfd8</color>
+    <color name="grau">#727979</color>
+    <color name="grau50">#babfc0</color>
+    <color name="grau25">#dde0e0</color>
+    <color name="pantone">#5272ab</color>
+    <color name="pantone50">#a9b4d4</color>
+    <color name="pantone25">#d6d9ea</color>
+</resources>
